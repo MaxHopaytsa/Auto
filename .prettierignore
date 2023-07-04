@@ -1,8 +1,0 @@
-# Ignore artifacts:
-build
-node_modules
-.eslintrc.cjs
-# Ignore all JSON files:
-*.json
-
-
