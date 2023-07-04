@@ -20,7 +20,7 @@ Start the development server using the command:
 
 ```bash
 npm run dev
-
+```
 
 Open your web browser and navigate to http://localhost:5173/Auto/ to view the application.
 
