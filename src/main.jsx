@@ -9,13 +9,16 @@ import ErrorPage from "./error/index.jsx"
 import Spinner from "./components/loader/spinner.jsx"
 import "./index.css"
 
-const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <App />,
-        errorElement: <ErrorPage />,
-    },
-])
+const router = createBrowserRouter(
+    [
+        {
+            path: "/",
+            element: <App />,
+            errorElement: <ErrorPage />,
+        },
+    ],
+    { basename: "/Auto/" }
+)
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
