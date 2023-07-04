@@ -5,4 +5,7 @@ import react from "@vitejs/plugin-react"
 export default defineConfig({
     base: "/Auto/",
     plugins: [react()],
+    build: {
+        reactStrictMode: false,
+    },
 })
