@@ -9,7 +9,7 @@ export default function ErrorPage() {
     }
 
     const handleGoHome = () => {
-        navigate("/")
+        navigate("/Auto/")
     }
 
     console.error(error)

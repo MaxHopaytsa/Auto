@@ -156,7 +156,7 @@ const CarsTable = () => {
     }
 
     const handleHomeClick = () => {
-        window.location.href = "/"
+        window.location.href = "/Auto/"
     }
 
     return (
